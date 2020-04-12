@@ -35,13 +35,13 @@ main {
   z-index: 2;
   position: relative;
   height: 100%;
-  background-color: #2D3142;
+  /*background-color: #2D3142;*/
   -webkit-transition: transform .7s ease-in-out;
   -moz-transition: transform .7s ease-in-out;
   -ms-transition: transform .7s ease-in-out;
   -o-transition: transform .7s ease-in-out;
   transition: transform .7s ease-in-out;
-  background-image: url("./img/IMG_0612.jpg");
+  background-image: url("./img/img_0612.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
