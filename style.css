@@ -41,7 +41,7 @@ main {
   -ms-transition: transform .7s ease-in-out;
   -o-transition: transform .7s ease-in-out;
   transition: transform .7s ease-in-out;
-  background-image: url("img/img_0612.jpg");
+  background-image: url("./img/IMG_0612.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -486,7 +486,7 @@ span{
 @media (min-width: 768px) {
   main{
     height:100%;
-    background-image: url("img/6355716A-6C0B-4820-8F6F-34FC65F84550.jpeg");
+    background-image: url("./img/6355716A-6C0B-4820-8F6F-34FC65F84550.jpeg");
   }
   .nav-right {
     position: absolute;
