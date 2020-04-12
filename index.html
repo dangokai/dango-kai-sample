@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <meta name="twitter:card" content="summary_large_image" /> <!--①-->
+<meta name="twitter:site" content="@IM4au7ZEfsoGekK" /> <!--②-->
+<meta property="og:url" content="記事のURL" /> <!--③-->
+<meta property="og:title" content="記事のタイトル" /> <!--④-->
+<meta property="og:description" content="記事の要約（ディスクリプション）" /> <!--⑤-->
+<meta property="og:image" content="画像のURL" /> <!--⑥-->
+<script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+
+<body>
+  <div class="nav-right visible-xs" >
+    <div class="button" id="btn">
+      <div class="bar top"></div>
+      <div class="bar middle"></div>
+      <div class="bar bottom"></div>
+    </div>
+  </div>
+  <!-- nav-right -->
+  <section>
+  <main>
+
+    <h1 class="maintext">MY Portfolio</h1>
+    <nav>
+      <div class="nav-right hidden-xs">
+        <div class="button" id="#btn">
+          <div class="bar top"></div>
+          <div class="bar middle"></div>
+          <div class="bar bottom"></div>
+        </div>
+      </div>
+      <!-- nav-right -->
+    </nav>
+
+  </main>
+</section>
+
+
+
+  <div class="sidebar">
+    <ul class="sidebar-list">
+      <li class="sidebar-item "><a href="#" class="sidebar-anchor">HOME</a></li>
+      <li class="sidebar-item"><a href="#about" class="sidebar-anchor">ABOUT</a></li>
+      <li class="sidebar-item"><a href="#skills" class="sidebar-anchor">SKILLS</a></li>
+      <li class="sidebar-item"><a href="#work" class="sidebar-anchor">WORK</a></li>
+      <li class="sidebar-item"><a href="#contact" class="sidebar-anchor">CONTACT</a></li>
+    </ul>
+  </div>
+  <section>
+    <div id="about" class="fade_off ">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="me">About Me</h1>
+          <img src="img/IMG_6416.jpg" alt="" class="myphoto">
+        </div>
+        <div class="col-md-6">
+          <div class="respons">
+            <h1 class="mee">About Me</h1>
+            <p class="t-1">だんごかい</p>
+            <p class="t-2">1999年生まれ福岡出身</p>
+            <p class="t-3">ひょんなことからIT業界に足を踏み入れ、</p>
+            <p class="t-4">どっぷりはまり込んでしまった駆け出しエンジニア</p>
+            <p class="t-5">『スキルは自分を裏切らない』</p>
+            <p class="t-6">これを掲げて日々精進していきます。</p>
+            <a class="fab fa-twitter fa-2x" href="https://twitter.com/IM4au7ZefsoGekK"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="no2">
+    <div id="skills">
+      <div id="fade" class="fade_off">
+        <h1 class="skill-title">My SKILLS</h1>
+        <div class="container scroll-fade">
+          <div class="row">
+            <div class="col-lg-3">
+              <h1 class="html">HTML5</h1>
+              <i class="fab fa-html5 fa-4x"></i>
+              <p class="html-text">見やすいコードを念頭に、保守性の高いコードを意識したマークアップを行います。レスポンシブにも対応可能です。</p>
+            </div>
+            <div class="col-lg-3">
+              <h1 class="css">CSS3</h1>
+              <i class="fab fa-css3 fa-4x"></i>
+              <p class="css-text">お客様のご希望に沿ったデザインをCSS3を用いて考案していきます。</p>
+            </div>
+            <div class="col-lg-3">
+              <h1 class="jquery">JavaScript/jQuery</h1>
+              <i class="fab fa-js fa-4x"></i>
+              <p class="js-text">Js/jQueryを用いて、アコーディオンやスライドなどの動きを実装することで、よりきめ細かくオシャレなサイトに仕上げます。</p>
+            </div>
+            <div class="col-lg-3">
+              <h1 class="bootstrap">bootstrap4</h1>
+              <i class="fas fa-bold fa-4x"></i>
+              <p class="b-text">Bootstrap4を使用することで、レイアウトを簡易的に変更でき、納品スピードを上げます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="work">
+      <h1 class="my-work">My WORK</h1>
+      <div id="fade2" class="fade_off">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="item">
+                <div class="item-img"><img src="https://cdn.pixabay.com/photo/2015/03/26/09/40/keyboard-690066_1280.jpg"
+                    alt="" class="work-photo"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="item-body">
+                <div class="item-title">
+                  <h1 class="plice">LP制作<span>30,000円〜</span></h1>
+                  <p>納期目安 3週間以内</p>
+                  <p>デザイン・コーディング込み</p>
+                  <p>レスポンシブ対応</p>
+                  <p>簡易お問い合わせフォーム設置</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- /.item -->
+        <div class="flex-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="item2">
+                  <div class="item-img"><img src="https://cdn.pixabay.com/photo/2015/03/27/00/09/puzzle-693870_1280.jpg"
+                      alt="" class="syuuse"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="item-body">
+                  <div class="item-title">
+                    <h1 class="plice">修正案件<span>5,000円〜</span></h1>
+                    <p>ちょっとした手直し</p>
+                    <p>画像の差し替え</p>
+                    <p>定期的なサイトの更新</p>
+                  </div>
+                </div><!-- /.item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="contact">
+      <h1 class="contact">CONTACT</h1>
+      <p class="sns">SNSでもお問い合わせ頂けます</p>
+      <a class="fab fa-twitter fa-3x" href="https://twitter.com/IM4au7ZefsoGekK"></a>
+      <form action="confirm.php" method="post">
+        <label for="yourname"></label>
+        <input type="text" name="yourname" placeholder="Your Name" class="name">
+        <label for="email"></label>
+        <input type="email" name="email" placeholder="Your Email" class="email">
+        <label for="subject"></label>
+        <input type="text" name="subject" placeholder="Subject" class="subject">
+        <label for="comment"></label>
+        <textarea id="comment" name="comment" placeholder="messages..." class="komennto"></textarea>
+        <input type="submit" value="Submit" class="sousin">
+      </form>
+    </div>
+  </section>
+  <section class="fot">
+    <p class="hiduke">作成日/2020/3.8</p>
+  </section>
+</body>
+
+</html>
