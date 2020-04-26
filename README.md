@@ -1,2 +1,3 @@
 # dango-kai-sample
-岡田カイト
+名前書き換え
+
